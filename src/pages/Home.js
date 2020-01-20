@@ -1,13 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Carousel from './Carousel'
 import Navigation from './Navigation'
 
 const Home = () => (
   <>
     <Navigation/>
+    <Carousel/>
     <Container>
         <Row>
-            <Col lg="12"l>
+            <Col lg="12">
                 <h1>It's nice to meet you!</h1>
             </Col>
             <Col lg="12">
