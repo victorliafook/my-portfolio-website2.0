@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from './Carousel'
 import Navigation from './Navigation'
+import Footer from './Footer';
 
 const Home = () => (
   <>
@@ -22,6 +23,7 @@ const Home = () => (
         </Row>
 
     </Container>
+    <Footer/>
   </>
 );
 
