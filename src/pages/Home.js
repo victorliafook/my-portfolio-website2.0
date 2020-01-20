@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import Carousel from './Carousel'
 import Navigation from './Navigation'
 import Footer from './Footer';
@@ -21,7 +21,18 @@ const Home = () => (
                 <p>However, I also want this to be a place to share some of my experience and personal projects - including code, programming techniques and tips. After all, knowledge is to be shared. So, I hope you enjoy it!</p>
             </Col>
         </Row>
-
+        <div className="card bg-light">
+          <div className="card-body row">
+            <div className="col-lg-8">
+            <p>This site is an example of a simple React application. It was built using some tools and concepts to illustrate how this framework works. If you are interested in how to code using React, it is a good starting point.</p>
+            </div>
+            <div className="col-lg-4">
+            <Button variant="info" size="lg" block>
+              Read More
+            </Button>
+            </div>
+          </div>
+        </div>
     </Container>
     <Footer/>
   </>
