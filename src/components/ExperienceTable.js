@@ -2,7 +2,7 @@ import React from 'react';
 import { Table } from 'react-bootstrap';
 
 const ExperienceTable = ({ experienceList }) => (
-  <Table striped hover size="sm">
+  <Table striped hover size='sm'>
     <thead>
       <tr>
         <th>Name</th>
@@ -24,7 +24,14 @@ const ExperienceTable = ({ experienceList }) => (
 
 const getNameWithLink = function(experienceEntry) {
   if (experienceEntry.url !== undefined) {
-    return <a className="text-info" href={experienceEntry.url}>{experienceEntry.name}</a>
+    return (
+      <a className='text-info' 
+        href={experienceEntry.url} 
+        target='_blank' 
+        rel="noopener noreferrer">
+          {experienceEntry.name}
+      </a>
+    );
   }
   
   return experienceEntry.name;
