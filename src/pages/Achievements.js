@@ -23,7 +23,9 @@ const Achievements = () => {
       </Row>
       <Row>
         <Col lg="12">
-          <h2 className="pb-2 mt-4 mb-2">Academic Accomplishments</h2>
+          <h2 className="pb-2 mt-4 mb-2">
+            <i className="fas fa-university mr-2"></i>Academic Accomplishments
+          </h2>
         </Col>
         <Col lg="12">
           <ExperienceTable experienceList={academicData} />
@@ -31,7 +33,9 @@ const Achievements = () => {
       </Row>
       <Row>
         <Col lg="12">
-          <h2 className="pb-2 mt-4 mb-2">Certifications</h2>
+          <h2 className="pb-2 mt-4 mb-2">
+            <i className="fas fa-certificate mr-2"></i>Certifications
+          </h2>
         </Col>
         <Col lg="12">
           <ExperienceTable experienceList={certificationsData} />
@@ -39,7 +43,9 @@ const Achievements = () => {
       </Row>
       <Row>
         <Col lg="12">
-          <h2 className="pb-2 mt-4 mb-2">Courses</h2>
+          <h2 className="pb-2 mt-4 mb-2">
+            <i className="fas fa-book mr-2"></i>Courses
+          </h2>
         </Col>
         <Col lg="12">
           <ExperienceTable experienceList={coursesData} />

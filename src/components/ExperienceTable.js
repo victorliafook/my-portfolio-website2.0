@@ -15,7 +15,9 @@ const ExperienceTable = ({ experienceList }) => (
         <tr>
           <td>{entry.name}</td>
           <td>{entry.organisation}</td>
-          <td>{entry.year}</td>
+          <td>
+            {entry.year}{entry.yearTo !== undefined ? ' - ' + entry.yearTo : ''}
+          </td>
         </tr>
       ))}
     </tbody>
