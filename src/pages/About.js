@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ExternalLink from '../components/ExternalLink';
 import { Container, Row, Col, Image } from  'react-bootstrap';
-import Navigation from './Navigation';
-import Footer from './Footer';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 import aboutImg from '../img/sydney.jpg';
 
 const About = () => (

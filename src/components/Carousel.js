@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
 
 import phpImg from '../img/php-code.jpg';
 import javaImg from '../img/java-code.jpg';

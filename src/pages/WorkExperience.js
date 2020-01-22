@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from  'react-bootstrap';
-import Navigation from './Navigation';
-import Footer from './Footer';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 import ExperienceTable from '../components/ExperienceTable';
 import experienceData from '../data/experience';
 

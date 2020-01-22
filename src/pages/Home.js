@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Carousel from './Carousel'
-import Navigation from './Navigation'
-import Footer from './Footer';
+import Carousel from '../components/Carousel'
+import Navigation from '../components/Navigation'
+import Footer from '../components/Footer';
 
 const Home = () => (
   <>

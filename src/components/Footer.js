@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ExternalLink from '../components/ExternalLink';
+import ExternalLink from './ExternalLink';
 
 const Footer = () => (
   <footer>
