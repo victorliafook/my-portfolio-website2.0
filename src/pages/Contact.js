@@ -17,8 +17,8 @@ const About = () => (
     </Row>
     <Row>
       <Col lg='8'>
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" 
-          marginheight="0" marginwidth="0"
+        <iframe width="100%" height="400px" frameBorder="0" scrolling="no" 
+          marginHeight="0" marginWidth="0"
           title="find me"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.444247900129!2d151.12677521521255!3d-33.95541938063256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b9f9fe9abb47%3A0xd9c75777a3656825!2sSeaforth+St%2C+Bexley+NSW+2207!5e0!3m2!1sen!2sau!4v1517573037449">
         </iframe>

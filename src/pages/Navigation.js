@@ -4,7 +4,7 @@ import { Container, Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 
 const Navigation = () => (
-  <Navbar fixed="top" bg="dark" variant="dark">
+  <Navbar fixed="top" bg="dark" expand='md' variant="dark">
     <Container>
       <Link to="/" className="navbar-brand">Home Page</Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
