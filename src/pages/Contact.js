@@ -27,7 +27,7 @@ const About = () => (
         <h3 className='pb-2 mt-4 mb-2'>Contact Details</h3>
         <p>Seaforth Street<br/>Bexley, NSW 2207<br/>Sydney, Australia</p>
         <p><i className='fa fa-envelope-o mr-2'></i> 
-           <a href='mailto:victorliafook@gmail.com'>victorliafook@gmail.com</a>
+          <a href='mailto:victorliafook@gmail.com'>victorliafook@gmail.com</a>
         </p>
         <ul className='list-unstyled list-inline list-social-icons'>
           <li className='list-inline-item'>
@@ -40,7 +40,7 @@ const About = () => (
             <a target='_blank' href='http://stackoverflow.com/users/4911877/victor-lia-fook' rel='noopener noreferrer'><i className='fab fa-stack-overflow fa-2x'></i></a>
           </li>
           <li className='list-inline-item'>
-            <a target='_blank' href='http://stackoverflow.com/users/4911877/victor-lia-fook' rel='noopener noreferrer'><i className='fab fa-hackerrank fa-2x'></i></a>
+            <a target='_blank' href='https://www.hackerrank.com/victorliafook' rel='noopener noreferrer'><i className='fab fa-hackerrank fa-2x'></i></a>
           </li>
         </ul>
       </Col>
