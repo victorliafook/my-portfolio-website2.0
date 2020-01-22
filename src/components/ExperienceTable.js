@@ -13,7 +13,7 @@ const ExperienceTable = ({ experienceList }) => (
     <tbody>
       {experienceList.map((entry, key) => (
         <tr key={key}>
-          <td>{entry.name}</td>
+          <td>{getNameWithLink(entry)}</td>
           <td>{entry.organisation}</td>
           <td>{getDuration(entry)}</td>
         </tr>
@@ -21,6 +21,14 @@ const ExperienceTable = ({ experienceList }) => (
     </tbody>
   </Table>
 );
+
+const getNameWithLink = function(experienceEntry) {
+  if (experienceEntry.url !== undefined) {
+    return <a className="text-info" href={experienceEntry.url}>{experienceEntry.name}</a>
+  }
+  
+  return experienceEntry.name;
+}
 
 const getDuration = function(experienceEntry) {
   let durationStr = experienceEntry.year;
