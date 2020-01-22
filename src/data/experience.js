@@ -99,7 +99,7 @@ const experienceData = {
     name: "Software Engineer - Tech Lead",
     organisation: "Open Colleges",
     year: "2019",
-    yearTo: "2020"
+    yearTo: "now"
   }, {
     name: "Full Stack Developer",
     organisation: "Open Colleges",
