@@ -5,23 +5,31 @@ const ExperienceTable = ({ experienceList }) => (
   <Table striped hover size="sm">
     <thead>
       <tr>
-        <th>Course</th>
+        <th>Name</th>
         <th>Institution</th>
         <th>Year</th>
       </tr>
     </thead>
     <tbody>
       {experienceList.map((entry, key) => (
-        <tr>
+        <tr key={key}>
           <td>{entry.name}</td>
           <td>{entry.organisation}</td>
-          <td>
-            {entry.year}{entry.yearTo !== undefined ? ' - ' + entry.yearTo : ''}
-          </td>
+          <td>{getDuration(entry)}</td>
         </tr>
       ))}
     </tbody>
   </Table>
 );
+
+const getDuration = function(experienceEntry) {
+  let durationStr = experienceEntry.year;
+  if (experienceEntry.yearTo !== undefined) {
+    durationStr += ' - ';
+    durationStr += experienceEntry.yearTo;
+  }
+  
+  return durationStr;
+}
 
 export default ExperienceTable;
