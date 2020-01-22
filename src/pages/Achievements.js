@@ -5,8 +5,6 @@ import Footer from './Footer';
 import ExperienceTable from '../components/ExperienceTable';
 import experienceData from '../data/experience';
 
-
-
 const Achievements = () => {
   const academicData = experienceData.academic;
   const coursesData = experienceData.courses;
@@ -18,13 +16,17 @@ const Achievements = () => {
     <Container>
       <Row>
         <Col lg="12">
-          <h1 className="pb-2 mt-4 mb-2 border-bottom">Achievements</h1>
+          <h1 className="pb-2 mt-4 mb-2 border-bottom">
+            Achievements
+            <small class="text-muted font-weight-light">Courses/Certifications</small>
+          </h1>
         </Col>
       </Row>
       <Row>
         <Col lg="12">
           <h2 className="pb-2 mt-4 mb-2">
-            <i className="fas fa-university mr-2"></i>Academic Accomplishments
+            <i className="fas fa-university mr-2"></i>
+            Academic Accomplishments
           </h2>
         </Col>
         <Col lg="12">
@@ -34,7 +36,8 @@ const Achievements = () => {
       <Row>
         <Col lg="12">
           <h2 className="pb-2 mt-4 mb-2">
-            <i className="fas fa-certificate mr-2"></i>Certifications
+            <i className="fas fa-certificate mr-2"></i>
+            Certifications
           </h2>
         </Col>
         <Col lg="12">
@@ -44,7 +47,8 @@ const Achievements = () => {
       <Row>
         <Col lg="12">
           <h2 className="pb-2 mt-4 mb-2">
-            <i className="fas fa-book mr-2"></i>Courses
+            <i className="fas fa-book mr-2"></i>
+            Courses
           </h2>
         </Col>
         <Col lg="12">
