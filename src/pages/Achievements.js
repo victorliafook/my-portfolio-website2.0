@@ -18,7 +18,7 @@ const Achievements = () => {
         <Col lg="12">
           <h1 className="pb-2 mt-4 mb-2 border-bottom">
             Achievements
-            <small class="text-muted font-weight-light">Courses/Certifications</small>
+            <small className="ml-3 text-muted font-weight-light">Courses/Certifications</small>
           </h1>
         </Col>
       </Row>

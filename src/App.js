@@ -1,8 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Achievements from './pages/Achievements'
-import WorkExperience from './pages/WorkExperience'
+import Achievements from './pages/Achievements';
+import WorkExperience from './pages/WorkExperience';
+import About from './pages/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" component={Home} exact/>
         <Route path="/achievements" component={Achievements} />
         <Route path="/jobs" component={WorkExperience} />
+        <Route path="/about" component={About} />
       </div>
     </Router>
   );
