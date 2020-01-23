@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ExternalLink from '../components/ExternalLink';
 import { Container, Row, Col, Image } from  'react-bootstrap';
+import NavBreadcrumbs from '../components/NavBreadcrumbs';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import aboutImg from '../img/sydney.jpg';
@@ -16,6 +17,7 @@ const About = () => (
           About
           <small className="ml-3 text-muted font-weight-light">Who am I?</small>
         </h1>
+        <NavBreadcrumbs hierarchyList={[{name: 'About Me', active: true}]}/>
       </Col>
     </Row>
     <Row>

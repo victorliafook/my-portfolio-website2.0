@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from  'react-bootstrap';
+import NavBreadcrumbs from '../components/NavBreadcrumbs';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import ExperienceTable from '../components/ExperienceTable';
 import experienceData from '../data/experience';
-
-
 
 const WorkExperience = () => {
   const jobsData = experienceData.jobs;  
@@ -17,6 +16,7 @@ const WorkExperience = () => {
       <Row>
         <Col lg="12">
           <h1 className="pb-2 mt-4 mb-2 border-bottom">Work Experience</h1>
+          <NavBreadcrumbs hierarchyList={[{name: 'Work Experience', active: true}]}/>
         </Col>
       </Row>
       <Row>

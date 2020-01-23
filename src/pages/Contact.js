@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from  'react-bootstrap';
+import NavBreadcrumbs from '../components/NavBreadcrumbs';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
@@ -13,6 +14,7 @@ const About = () => (
           Contact
           <small className='ml-3 text-muted font-weight-light'>My details</small>
         </h1>
+        <NavBreadcrumbs hierarchyList={[{name: 'Contact', active: true}]}/>
       </Col>
     </Row>
     <Row>
