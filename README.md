@@ -19,7 +19,7 @@ Extra Libs/Packages:
 
 ## New Version:
 
-Static website built using React and Twitter Bootstrap 4;
+Static website built using React and Twitter Bootstrap 4; Kickstarted using `react-create-app`
 
 Hosted in AWS S3;
 
@@ -28,6 +28,7 @@ Automated Build using a Github Bucket within AWS Code Build;
 Basically the same content, just some reviews and editions;
 
 Extra Packages:
+* [react-create-app](https://github.com/facebook/create-react-app)
 * [React Bootstrap](https://react-bootstrap.netlify.com/)
 * [React Router](https://www.npmjs.com/package/react-router-dom)
 * [Font Awesome](https://fontawesome.com/)
