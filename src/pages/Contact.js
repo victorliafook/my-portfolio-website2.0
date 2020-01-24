@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from  'react-bootstrap';
+import ExternalLink from '../components/ExternalLink';
 import NavBreadcrumbs from '../components/NavBreadcrumbs';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -33,16 +34,24 @@ const About = () => (
         </p>
         <ul className='list-unstyled list-inline list-social-icons'>
           <li className='list-inline-item'>
-            <a target='_blank' href='http://www.linkedin.com/in/victorliafook/' rel='noopener noreferrer'><i className='fab fa-linkedin fa-2x'></i></a>
+            <ExternalLink url='http://www.linkedin.com/in/victorliafook/'>
+              <i className='fab fa-linkedin fa-2x'></i>
+            </ExternalLink>
           </li>
           <li className='list-inline-item'>
-            <a target='_blank' href='http://github.com/victorliafook' rel='noopener noreferrer'><i className='fab fa-github-alt fa-2x'></i></a>
+            <ExternalLink url='http://github.com/victorliafook'>
+              <i className='fab fa-github-alt fa-2x'></i>
+            </ExternalLink>
           </li>
 			    <li className='list-inline-item'>
-            <a target='_blank' href='http://stackoverflow.com/users/4911877/victor-lia-fook' rel='noopener noreferrer'><i className='fab fa-stack-overflow fa-2x'></i></a>
+            <ExternalLink url='http://stackoverflow.com/users/4911877/victor-lia-fook'>
+              <i className='fab fa-stack-overflow fa-2x'></i>
+            </ExternalLink>
           </li>
           <li className='list-inline-item'>
-            <a target='_blank' href='https://www.hackerrank.com/victorliafook' rel='noopener noreferrer'><i className='fab fa-hackerrank fa-2x'></i></a>
+            <ExternalLink url='https://www.hackerrank.com/victorliafook'>
+              <i className='fab fa-hackerrank fa-2x'></i>
+            </ExternalLink>
           </li>
         </ul>
       </Col>
