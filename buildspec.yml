@@ -1,0 +1,18 @@
+version: 0.1
+
+phases:
+    install:
+        commands:
+            - echo INSTALL started on `date`
+            - npm install
+    build:
+        commands:
+            - echo Building bundles started on `date`
+            - npm run build
+    post_build:
+        commands:
+            - echo Build completed on `date`
+artifacts:
+    files:
+        - '**/*'
+    base-directory: build
