@@ -33,15 +33,15 @@ Extra Packages:
 * [React Router](https://www.npmjs.com/package/react-router-dom)
 * [Font Awesome](https://fontawesome.com/)
 
-## Run development version
+### Run development version
 ```
 $ npm install
 $ npm start
 ```
 
-## Build Production version
+### Build Production version
 ```
 $ npm install
 $ npm run build
 ```
-After building, the static bundle will be ate build directory. Thats the content served on AWS S3.
+After building, the static bundle will be at the /build directory. That's the content served on AWS S3.
