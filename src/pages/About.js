@@ -38,9 +38,9 @@ const About = () => (
     <Row>
       <Col lg='12'>
         <h2 className="pb-2 mt-4 mb-2 border-bottom">Australia</h2>
-        <p>In 2012 I decided that I would live in Australia. Lucky me, I am a programmer. Every year the Australian Government makes a <ExternalLink url='https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list' text='list'/> with many occupations they lack in their labour market. Software Developers are usually included in that list.</p>
+        <p>In 2012 I decided that I would live in Australia. Lucky me, I am a programmer. Every year the Australian Government makes a <ExternalLink url='https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list'>list</ExternalLink> with many occupations they lack in their labour market. Software Developers are usually included in that list.</p>
         <p>Next step, I needed to know how to speak English. After hard work and some unsuccessful attempts, I managed to pass on the IELTS Exam with an overall band of 8.0 with no skill below 7.0. That was one of the requirement to be entitled to an Australian Skilled Visa.</p>
-        <p>After a lot of paperwork, waiting and money spent, in October 2016 I finally got the <ExternalLink url='https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189' text='Permanent Resident visa'/>, which gives me the right to work and live here in Australia!</p>
+        <p>After a lot of paperwork, waiting and money spent, in October 2016 I finally got the <ExternalLink url='https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189'>Permanent Resident visa</ExternalLink>, which gives me the right to work and live here in Australia!</p>
       </Col>
     </Row>
   </Container>
