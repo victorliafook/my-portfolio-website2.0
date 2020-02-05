@@ -18,8 +18,8 @@ const Achievements = () => {
       <Row>
         <Col lg="12">
           <h1 className="pb-2 mt-4 mb-2 border-bottom">
-            Achievements
-            <small className="ml-3 text-muted font-weight-light">Courses/Certifications</small>
+            Achievements&nbsp;
+            <small className="d-inline-block text-muted font-weight-light">Courses</small>
           </h1>
           <NavBreadcrumbs hierarchyList={[{name: 'Achievements', active: true}]}/>
         </Col>

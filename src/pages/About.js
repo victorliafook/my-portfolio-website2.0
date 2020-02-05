@@ -14,8 +14,8 @@ const About = () => (
     <Row>
       <Col lg="12">
         <h1 className="pb-2 mt-4 mb-2 border-bottom">
-          About
-          <small className="ml-3 text-muted font-weight-light">Who am I?</small>
+          About&nbsp;
+          <small className="d-inline-block text-muted font-weight-light">Who am I?</small>
         </h1>
         <NavBreadcrumbs hierarchyList={[{name: 'About Me', active: true}]}/>
       </Col>
