@@ -30,6 +30,11 @@ const experienceData = {
     year: "2013"
   }],
   courses: [{
+    name: "Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+    organisation: "Stanford/Coursera",
+    year: "2020",
+    url: "https://www.coursera.org/account/accomplishments/certificate/C2GT5VFXCWTS"
+  },{
     name: "Programming Foundations: Test-Driven Development",
     organisation: "LinkedIn",
     year: "2017",
