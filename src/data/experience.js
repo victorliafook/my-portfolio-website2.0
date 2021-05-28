@@ -101,10 +101,15 @@ const experienceData = {
     url: "https://www.coursera.org/learn/crypto"
   }],
   jobs: [{
+    name: "Senior Software Engineer",
+    organisation: "The Iconic",
+    year: "2020",
+    yearTo: "now"
+  }, {
     name: "Software Engineer - Tech Lead",
     organisation: "Open Colleges",
     year: "2019",
-    yearTo: "now"
+    yearTo: "2020"
   }, {
     name: "Full Stack Developer",
     organisation: "Open Colleges",
