@@ -29,7 +29,13 @@ const experienceData = {
     organisation: "Microsoft",
     year: "2013"
   }],
-  courses: [{
+  courses: [
+  {
+    name: "Parallel, Concurrent, and Distributed Programming in Java",
+    organisation: "Rice University/Coursera",
+    year: "2023",
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/PBTH4QCN94TL"
+  },{
     name: "Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
     organisation: "Stanford/Coursera",
     year: "2020",
